@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
 
-const skills = [
-  { name: "HTML", percentage: 90 },
-  { name: "CSS/SCSS", percentage: 85 },
-  { name: "JAVASCRIPT", percentage: 80 },
-  { name: "REACT.JS", percentage: 85 },
-  { name: "TAILWIND CSS", percentage: 90 },
-  { name: "AI PROMPTING", percentage: 75 }, // AI qobiliyati
-];
+// const skills = [
+//   { name: "HTML", percentage: 100 },
+//   { name: "CSS/SCSS", percentage: 85 },
+//   { name: "JAVASCRIPT", percentage: 80 },
+//   { name: "REACT.JS", percentage: 85 },
+//   { name: "TAILWIND CSS", percentage: 90 },
+//   { name: "AI PROMPTING", percentage: 75 }, // AI qobiliyati
+// ];
 
 export default function About() {
   return (
@@ -21,12 +21,12 @@ export default function About() {
             whileInView={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-5xl font-bold mb-4 tracking-tighter"
           >
-            About Me
+            Информация о себе
           </motion.h2>
           <div className="w-20 h-1 bg-[#ff6b00] mx-auto rounded-full"></div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-1 gap-12 items-center">
           
           {/* Chap Tomon: Yangilangan Motivatsion Matn */}
           <motion.div 
@@ -35,7 +35,7 @@ export default function About() {
             transition={{ duration: 0.6 }}
             className="space-y-6 text-gray-300 text-lg leading-relaxed"
           >
-            <p>
+            {/* <p>
               Hi, I'm <span className="text-white font-semibold">Abduvohid Abdusattorov</span>. My journey into technology was driven by a deep curiosity about how digital worlds are built. I recently completed an intensive <span className="text-[#ff6b00] font-bold">8-month Front-End curriculum at Najot Ta’lim</span>, where I transformed from a tech enthusiast into a focused developer.
             </p>
             
@@ -49,11 +49,30 @@ export default function About() {
 
             <p className="italic text-gray-400 border-l-2 border-[#ff6b00] pl-4">
               "I am not looking for just a job, but a challenge where I can grow and deliver value from day one."
-            </p>
+            </p> */}
+
+
+
+
+            <p>
+  Привет, я <span className="text-white font-semibold">Абдувохид Абдусатторов</span>. Мой путь в мир технологий начался с глубокого любопытства к тому, как создаются цифровые миры. Недавно я завершил интенсивный <span className="text-[#ff6b00] font-bold">8-месячный курс Front-End разработки в Najot Ta’lim</span>, где прошел путь от энтузиаста до целеустремленного разработчика.
+</p>
+
+<p>
+  Что отличает меня от других — это мой <span className="text-white font-semibold">AI-first подход к разработке</span>. Я свободно использую инструменты искусственного интеллекта для ускорения рабочего процесса, отладки сложных задач и отслеживания последних трендов индустрии. Я верю, что будущее программирования заключается в синергии человеческого креатива и ИИ.
+</p>
+
+<p>
+  Несмотря на то, что я нахожусь на <span className="text-[#ff6b00] font-semibold">пороге своей профессиональной карьеры</span>, я провел сотни часов за проектированием реальных приложений, уделяя особое внимание производительности и pixel-perfect адаптивности. Я не просто пишу код — я создаю пользовательский опыт.
+</p>
+
+<p className="italic text-gray-400 border-l-2 border-[#ff6b00] pl-4">
+  "Я ищу не просто работу, а вызов, который позволит мне расти и приносить пользу с первого же дня."
+</p>
           </motion.div>
 
           {/* O'ng Tomon: Skills (Foizli doiralar) */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-8">
+          {/* <div className="grid grid-cols-2 sm:grid-cols-4 gap-8">
             {skills.map((skill, index) => (
               <motion.div 
                 key={index}
@@ -93,7 +112,7 @@ export default function About() {
                 </span>
               </motion.div>
             ))}
-          </div>
+          </div> */}
 
         </div>
       </div>

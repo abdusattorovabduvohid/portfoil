@@ -17,20 +17,24 @@ const contactInfo = [
   },
   {
     icon: <FaPhoneAlt className="text-[#ff6b00]" />,
-    label: "Phone",
+    label: "Телефон",
     value: "+998 97 755 50 80",
     href: "tel:+998977555080",
   },
   {
     icon: <FaMapMarkerAlt className="text-[#ff6b00]" />,
-    label: "Address",
-    value: "Tashkent, Uzbekistan",
+    label: "Адрес",
+    value: "Ташкент, Узбекистан",
     href: "https://maps.google.com",
   },
 ];
 
 const socials = [
-  { icon: <FaGithub />, href: "https://github.com/abbbabb736-star", label: "GitHub" },
+  {
+    icon: <FaGithub />,
+    href: "https://github.com/abdusattorovabduvohid",
+    label: "GitHub",
+  },
   {
     icon: <FaLinkedin />,
     href: "https://www.linkedin.com/in/abduvakhid-abdusattorov-b176623bb/",
@@ -53,7 +57,7 @@ export default function Contact() {
             whileInView={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-5xl font-bold mb-4 tracking-tighter"
           >
-            Contact Me
+            Связаться со мной
           </motion.h2>
           <div className="w-20 h-1 bg-[#ff6b00] mx-auto rounded-full"></div>
         </div>
@@ -97,12 +101,12 @@ export default function Contact() {
             className="bg-[#111] border border-gray-800 p-10 rounded-[40px] flex flex-col items-center text-center shadow-2xl"
           >
             <h3 className="text-2xl font-bold mb-4 text-white">
-              Let's Connect
+              Давайте общаться
             </h3>
             <p className="text-gray-400 mb-10 max-w-sm">
-              I am currently looking for new opportunities. Whether you have a
-              question or just want to say hi, I'll try my best to get back to
-              you!
+              Я нахожусь в поиске новых возможностей. Если у вас есть вопрос или
+              вы просто хотите поздороваться — я обязательно постараюсь вам
+              ответить!
             </p>
 
             <div className="flex gap-6 mb-10">
@@ -125,7 +129,7 @@ export default function Contact() {
               href="mailto:abduvohid_5080@icloud.com"
               className="w-full py-5 bg-[#ff6b00] text-black font-black uppercase tracking-widest rounded-2xl hover:bg-[#e65a00] transition-all transform hover:scale-[1.02] shadow-lg shadow-[#ff6b00]/20"
             >
-              Send a Direct Message
+              Отправить сообщение
             </a>
           </motion.div>
         </div>

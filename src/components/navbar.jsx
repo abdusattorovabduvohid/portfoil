@@ -3,11 +3,11 @@ import { motion, AnimatePresence } from "framer-motion";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const navLinks = [
-  { name: "Home", href: "#" },
-  { name: "About", href: "#about" },
-  { name: "Education", href: "#skills" }, // Yangi qo'shilgan link
-  { name: "Portfolio", href: "#portfolio" },
-  { name: "Contact", href: "#contact" },
+  { name: "Главная", href: "#" },
+  { name: "О себе", href: "#about" },
+  { name: "Образование", href: "#skills" }, // Yangi qo'shilgan link
+  { name: "Портфолио", href: "#portfolio" },
+  { name: "Контакты", href: "#contact" },
 ];
 
 export default function Navbar() {
