@@ -13,9 +13,10 @@ const projectData = {
     title: "Vet Project",
     link: "https://zoo-market-livid.vercel.app/",
   },
-  GreenShop: {
-    title: "GreenShop",
-    link: "https://exam-6-umber.vercel.app/",
+
+  "Wheather App": {
+    title: "Wheather App",
+    link: "https://wheather-cyan.vercel.app/",
   },
 
   Chefina: {
