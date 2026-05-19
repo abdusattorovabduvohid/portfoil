@@ -14,9 +14,9 @@ const projectData = {
     link: "https://zoo-market-livid.vercel.app/",
   },
 
-  "Wheather App": {
-    title: "Wheather App",
-    link: "https://wheather-cyan.vercel.app/",
+  "Booking": {
+    title: "Booking Clone",
+    link: "https://booking-clonee.vercel.app/ru",
   },
 
   Chefina: {
